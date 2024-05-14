@@ -20,14 +20,15 @@ export const Formulario = styled.form`
     opacity: 0.7;
   }
 
+  div {
+    position: relative;
+    color: #eee;
+  }
+
   @media (max-width: 768px) {
     height: auto;
     padding: 24px 0;
   }
-`
-export const ContainerFormulario = styled.div`
-  position: relative;
-  color: #eee;
 `
 
 export const TituloHero = styled.h2`
